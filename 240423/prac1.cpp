@@ -1,17 +1,17 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 int main()
 {
-	std::cout << "5´Ü Ãâ·Â\n";
+	std::cout << "5ë‹¨ ì¶œë ¥\n";
 	for (int i = 1; i <= 9; i++)
 	{
 		std::cout << "5 * " << i << "= " << 5 * i << "\n";
 	}
 
-	std::cout << "±¸±¸´Ü Ãâ·Â\n";
+	std::cout << "êµ¬êµ¬ë‹¨ ì¶œë ¥\n";
 	for (int i = 1; i <= 9; i++)
 	{
-		std::cout << i << "´Ü Ãâ·Â\n";
+		std::cout << "-----" << i << "ë‹¨-----\n";
 		for (int j = 1; j <= 9; j++)
 		{
 			std::cout << i << " * " << j << " = " << i * j << "\n";
